@@ -36,8 +36,8 @@ profile/
 
 - JDK 1.8 + Maven 3.6+
 - Node 18+ / npm
-- MySQL 8，监听 `127.0.0.1:3306`，账号 `root`，密码 `ailearning123`
-  - 本机可复用正在运行的 Docker 容器 `ailearning-mysql`（`mysql:8.0`），系统会自动创建独立数据库 `resume`，不影响其它项目任何数据。
+- MySQL 8，监听 `127.0.0.1:3306`，账号 `root`，密码 `xxxxxx`
+  - 本机可复用正在运行的 Docker 容器已运行的mysql数据库（`mysql:8.0`），系统会自动创建独立数据库 `resume`，不影响其它项目任何数据。
   - 若你的 MySQL 账号密码不同：修改 [application.yml](backend/src/main/resources/application.yml) 中 `spring.datasource.username / password` 即可。
 
 ## 快速启动
